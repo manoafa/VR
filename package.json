@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "node scripts/deploy.js",
     "start": "node node_modules/react-360/scripts/packager.js --watch --watch-poll",
     "bundle": "node node_modules/react-360/scripts/bundle.js && sh scripts/copy-assets.sh",
