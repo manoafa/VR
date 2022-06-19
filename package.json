@@ -1,13 +1,13 @@
 {
-  "homepage":"https://manoafa.github.io/VR",
+  "homepage": "https://manoafa.github.io/VR",
   "name": "VR",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "node scripts/deploy.js",
     "start": "node node_modules/react-360/scripts/packager.js --watch --watch-poll",
-    "bundle": "node node_modules/react-360/scripts/bundle.js",
+    "bundle": "node node_modules/react-360/scripts/bundle.js && sh scripts/copy-assets.sh",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
     "test": "jest"
