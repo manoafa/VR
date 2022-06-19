@@ -1,7 +1,7 @@
 {
   "homepage": "https://manoafa.github.io/VR",
   "name": "VR",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "deploy": "node scripts/deploy.js",
