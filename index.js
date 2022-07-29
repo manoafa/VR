@@ -67,7 +67,7 @@ export default class ButtonInfoPanel extends React.Component {
     return (
       <View>
         <View style={styles.buttonPanel}>
-          <Text style={styles.header}>Room Selection</Text>
+          <Text style={styles.header}>Visite</Text>
           { this.createRoomButtons(this.props.adjacentRooms) }
         </View>
       </View>
